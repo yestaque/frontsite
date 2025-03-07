@@ -32,9 +32,9 @@
       <h1>FreireVeículos</h1>
       <nav>
         <ul>
-            <li><a href="#sobre-nos">Sobre nós: temos todos os veículos do mercado de 10 anos atrás das melhores Marcas</a></li>
-            <li><a href="#estoque">Estoque: 10 mil veículos novos e usados</a></li>
-            <li><a href="#contato">Contato: whatsapp: 84992160269</a></li>
+            <li class="nós"><a href="#sobre-nos">Sobre nós: temos todos os veículos do mercado de 10 anos atrás das melhores Marcas</a></li> <i class='bx bx-message-dots'></i>
+            <li class="nós"><a href="#estoque">Estoque: 10 mil veículos novos e usados</a></li> <i class='bx bx-package' ></i>
+            <li class="nós"><a href="#contato">Contato: whatsapp: 84992160269</a></li> <i class='bx bxl-whatsapp'></i>
         </ul>
       </nav>
     </header>
@@ -43,10 +43,10 @@
     <header class="header">
         <nav class="navbar">
             <ul>
-                <li><a href="#sobre-nos">Sobre Nós</a></li>
-                <li><a href="#carros">Carros</a></li>
-                <li><a href="#ofertas">Ofertas</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li class="menuj"><a href="#sobre-nos">Sobre Nós</a></li>
+                <li class="menuj"><a href="#carros">Carros</a></li>
+                <li class="menuj"><a href="#ofertas">Ofertas</a></li>
+                <li class="menuj"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -147,6 +147,7 @@
                 <option value="chevrolet">Chevrolet</option>
                 <option value="ford">Ford</option>
                 <option value="toyota">Toyota</option>
+                <option value="porsche">Porsche</option>
             </select>
 
             <button type="submit">Buscar</button>
@@ -166,7 +167,7 @@
         R$ 120.000 á vista ou parcelado em 5x sem juros
       </p>
   <img class="aud1" src="img/audi.jpg" alt="">
-  <button>Comprar Agora</button>
+  <button class="jep">Comprar Agora</button>
   <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
   <div class="icons8-lamborghini"></div>
@@ -175,14 +176,14 @@
     R$ 100.000 á vista ou parcelado em 6x sem juros
   </p>	
   <img class="bmw1" src="img/bmw.jpg" alt="">
-  <button>Comprar Agora</button>
+  <button class="jep">Comprar Agora</button>
   <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
  
   <p class="jeep">Vendo o jeep de cor branca novo
     R$ 150.000 á vista.
     <img class="jeep1" src="img/jeep.jpg" alt="">
-    <button>Comprar Agora</button>
+    <button class="jep">Comprar Agora</button>
     <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
     
@@ -191,7 +192,7 @@
   <p class="lamborguinila">Vendo a lamborguini de cor laranja novo
     R$ 270.000 á vista.
     <img class="lamborguinila" src="img/lamborguini-laranja.jpg" alt="">
-    <button>Comprar Agora</button>
+    <button class="lamborgu">Comprar Agora</button>
     <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
   </p>
@@ -199,7 +200,7 @@
   <p class="lamborguini">Vendo a lamborguini novo
     R$ 270.000 á vista.
     <img class="lamborguin1" src="img/lamborguini.jpg" alt="">
-    <button>Comprar Agora</button>
+    <button class="lambo">Comprar Agora</button>
     <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
   </p>
@@ -207,7 +208,7 @@
   <p class="mercedes-benz">Vendo a mercedes-benz novo
     R$ 220.000 á vista.
     <img class="mercedes" src="img/mercedes-benz.jpg" alt="">
-    <button>Comprar Agora</button>
+    <button class="merce">Comprar Agora</button>
     <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
   </p>
@@ -215,7 +216,23 @@
   <p class="range">Vendo a range-rover novo
     R$ 180.000 á vista.
     <img class="rang" src="img/range-rover.jpg" alt="">
-    <button>Comprar Agora</button>
+    <button class="rang">Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  </p>
+
+  <p class="camaro">Vendo o camaro novo
+    R$ 150.000 á vista.
+    <img class="camar" src="img/camaro.jpg" alt="">
+    <button class="cama">Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  </p>
+
+  <p class="porsche">Vendo o porsche usado com 50.000 km
+    R$ 200.000 á vista.
+    <img class="porsch" src="img/porsche.jpg" alt="">
+    <button class="por">Comprar Agora</button>
     <i class='bx bx-credit-card'></i>
   <i class='bx bx-money'></i>
   </p>
@@ -255,6 +272,15 @@
     <button class="mercedes123">Veículos</button>
     <img class= "carro1" src="img/mercedes1.jpg"  alt="">
     <img class="carro2" src="img/mercedes2.jpg" alt="">
+</footer>
+
+<footer class="rodape3">
+    <p>Nós vendemos também carros populares brasileiros que sejam menor custo-benefício do mercado!</p>
+    <h3>Temos também objetivo de atingir o público que tenha menos poder aquisitivo, 
+        então vendemos para eles.</h3>
+    <button class="popular">Veiculos Populares</button>
+    <img class="popular1" src="img/carros-populares.jpg"  alt="">
+    <img class="popular2" src="img/carros-populares1.jpg"  alt="">
 </footer>
 
 <footer class="rodape2">
