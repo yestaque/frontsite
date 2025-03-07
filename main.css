@@ -1,0 +1,363 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h3 {
+    font-size: 24px;
+    color: rgb(0, 255, 51);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e90ff;
+  }
+  
+  header i {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+
+  header h1 {
+    color: #008080;
+  }
+  
+  header p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #0d8000fd;
+  }
+
+  section h2 {
+    color: #008080;
+    font-size: 35px;
+  }
+
+  section label {
+    color: #28a745;
+    font-size: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+  
+  /* Estilo para os carros */
+  p {
+    font-size: 18px;
+    color: #000000;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  p img {
+    display: block;
+    margin: 10px auto;
+  }
+
+   header h3 .bx.bxs-car{
+    padding: 10px;
+ }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffcc00; /* Cor ao passar o mouse */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;  /* Centraliza os ícones */
+    gap: 20px;  /* Espaço entre os ícones */
+    padding: 20px;
+}
+
+.bx {
+    font-size: 48px;
+    color: #333;
+    transition: transform 0.3s ease, color 0.3s ease; /*Animaçao de transicao*/
+}
+
+.bx:hover{
+    color: #05f997;
+    transform: scale(1.2);
+}
+
+.bxs-car {
+    color: #bfff1e;
+}
+
+.bxs-user{
+    color: #030303;
+}
+
+.bx-search {
+    color: #5b5959
+}  
+
+footer {
+    background-color: #08034d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h2{
+    font-size: 16px;
+}
+
+footer h3{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer p{
+    color: #008080;
+    font-size: 20px;
+}
+
+footer .rodape1 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer img.carro1{
+    width: 300px;
+    height: 300px;
+}
+
+footer img.carro2{
+    width: 300px;
+    height: 300px;
+}
+
+footer button.mercedes123{
+    color:#b92b2b;
+    font-size: 16px;
+    padding: 12px 24px;
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+footer button.mercedes123:hover{
+    background-color: #28a745;
+    transform: scale(1.2);
+}
+
+footer img.crédito{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+footer img.débito{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+footer img.bitcoin{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+footer img.dinheiro{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+footer button.pagamento{
+    color: #000000;
+    font-size: 16px;
+    padding: 12px 24px;
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+footer button.pagamento:hover{
+    background-color: #008080;
+    transform: scale(1.2);
+}
+
+  /* Estilo específico para cada tipo de carro */
+  p.aud {
+    color: #b92b2b; /* Cor para Audi */
+  }
+
+  img.aud1 {
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+img.aud1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+}
+
+  
+  p.bmw {
+    color: #1e90ff; /* Cor para BMW*/
+  }
+
+  img.bmw1{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+
+  img.bmw1:hover{
+    transform: scale(1.1); /* Aumenta a imagem para 110% */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+  }
+  
+  p.jeep {
+    color: #28a745; /* Cor para Jeep */
+  }
+
+  img.jeep1{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+
+  img.jeep1:hover{
+    transform: scale(1.1); /* Aumenta a imagem para 110% */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+  }
+  
+  p.lamborguinila, p.lamborguini {
+    color: #ff4500; /* Cor para Lamborguini */
+  }
+
+  img.lamborguinila{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+
+  img.lamborguinila:hover{
+    transform: scale(1.1); /* Aumenta a imagem para 110% */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+  }
+
+  img.lamborguin1{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+
+  img.lamborguin1:hover{
+    transform: scale(1.1); /* Aumenta a imagem para 110% */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+  }
+  
+  p.mercedes-benz {
+    color: #8b8b8b; /* Cor para Mercedes-Benz */
+  }
+
+  img.mercedes{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+
+  img.mercedes:hover{
+    transform: scale(1.1); /* Aumenta a imagem para 110% */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+  }
+  
+  p.range {
+    color: #008080; /* Cor para Range Rover */
+  }
+
+  img.rang{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #ddd; /* Borda fina e suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+
+  img.rang:hover{
+    transform: scale(1.1); /* Aumenta a imagem para 110% */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid #b92b2b; /* Alterar a cor da borda no hover */
+
+  }
+  

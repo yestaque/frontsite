@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://icons8.com.br/icons/set/mercedes" rel="stylesheet">
+    <link href="https://cdn.icons8.com/fonts/line-awesome.min.css" rel="stylesheet">
+    <head>
+        <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+    </head>
+    
+    <link rel="stylesheet" href="main.css">
+    <!-- CSS do Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+<!-- jQuery (necessário para o Select2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- JS do Select2 -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <title>Loja Venda de Veículos</title>
+</head>
+<body>
+    <header>
+    <h3>Sejam bem vindos a maior loja concessiónaria de Automóveis em Natal Rn</h3>
+    <i class='bx bxs-car'></i>
+    <i class='bx bxs-user'></i>
+    <i class='bx bx-search'></i>
+      <p>Tenho o objetivo de fazer com que meu cliente se sinta satísfeito, e compre e seja bem acolhido 
+        pelos nossos colaboradores!
+      </p>
+    <header>
+      <h1>FreireVeículos</h1>
+      <nav>
+        <ul>
+            <li><a href="#sobre-nos">Sobre nós: temos todos os veículos do mercado de 10 anos atrás das melhores Marcas</a></li>
+            <li><a href="#estoque">Estoque: 10 mil veículos novos e usados</a></li>
+            <li><a href="#contato">Contato: whatsapp: 84992160269</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Menu no topo -->
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#carros">Carros</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo das seções -->
+    <section id="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Temos as melhores marcas de veículos mais de luxos, com 0 zero km, e também vendemos carros usados SUV, caminhonetes e carros populares. </p>
+    </section>
+
+    <section id="carros">
+        <h2>Carros</h2>
+        <p>Lista de carros disponíveis: Acura
+            Alfa Romeo
+            Audi
+            BMW
+            Buick
+            Cadillac
+            Chevrolet
+            Chrysler
+            Citroën
+            Dodge
+            Ferrari
+            Fiat
+            Ford
+            Genesis
+            GMC
+            Honda
+            Hyundai
+            Infiniti
+            Jaguar
+            Jeep
+            Kia
+            Lamborghini
+            Land Rover
+            Lexus
+            Lincoln
+            Maserati
+            Mazda
+            McLaren
+            Mercedes-Benz
+            Mini
+            Mitsubishi
+            Nissan
+            Pagani
+            Peugeot
+            Porsche
+            RAM
+            Renault
+            Rolls-Royce
+            Saab
+            Subaru
+            Suzuki
+            Tesla
+            Toyota
+            Volkswagen
+            Volvo</p>
+    </section>
+
+    <section id="ofertas">
+        <h2>Ofertas</h2>
+        <p>Ofertas especiais na BMW 20% de desconto á vista</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Informações para entrar em contato:
+            whatsapp: 84992160269
+        </p>
+    </section>
+
+</body>
+</html>
+
+    <!-- Filtros de busca -->
+     <section id="filtros">
+        <h2>Filtrar Veículos</h2>
+        <form id="form-filtros">
+            <label for="preco">Preço</label>
+            <select id="preço">
+                <option value="todos">Todos</option>
+                <option value ="50000">Até R$50.000</option>
+                <option value="100000">Até R$100.000</option>
+                <option value="150000">Até R$150.000</option>
+                <option value="200000">Acima R$150.000</option>
+            </select>
+
+            
+            <label for="marca">Marca:</label>
+            <select id="marca">
+                <option value="todos">Todas</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="jeep">Jeep</option>
+                <option value="lamborguini">Lamborguini</option>
+                <option value="mercedes-benz">Mercedes-Benz</option>
+                <option value="range-rover">Range Rover</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="ford">Ford</option>
+                <option value="toyota">Toyota</option>
+            </select>
+
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+
+    <!-- Resultado da pesquisa -->
+     <section id="resultados">
+        <h2>Véiculos Encontrados</h2>
+        <div id="lista-veiculos">
+            <!-- Os veículos filtrados serao exibidos aqui-->
+        </div>
+     </section>
+
+
+      <p class="aud">Vendo o Audi
+        R$ 120.000 á vista ou parcelado em 5x sem juros
+      </p>
+  <img class="aud1" src="img/audi.jpg" alt="">
+  <button>Comprar Agora</button>
+  <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  <div class="icons8-lamborghini"></div>
+
+  <p class="bmw">Vendo o bmw cor azul novo 0 quilômetro
+    R$ 100.000 á vista ou parcelado em 6x sem juros
+  </p>	
+  <img class="bmw1" src="img/bmw.jpg" alt="">
+  <button>Comprar Agora</button>
+  <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+ 
+  <p class="jeep">Vendo o jeep de cor branca novo
+    R$ 150.000 á vista.
+    <img class="jeep1" src="img/jeep.jpg" alt="">
+    <button>Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+    
+  </p>
+
+  <p class="lamborguinila">Vendo a lamborguini de cor laranja novo
+    R$ 270.000 á vista.
+    <img class="lamborguinila" src="img/lamborguini-laranja.jpg" alt="">
+    <button>Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  </p>
+
+  <p class="lamborguini">Vendo a lamborguini novo
+    R$ 270.000 á vista.
+    <img class="lamborguin1" src="img/lamborguini.jpg" alt="">
+    <button>Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  </p>
+
+  <p class="mercedes-benz">Vendo a mercedes-benz novo
+    R$ 220.000 á vista.
+    <img class="mercedes" src="img/mercedes-benz.jpg" alt="">
+    <button>Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  </p>
+
+  <p class="range">Vendo a range-rover novo
+    R$ 180.000 á vista.
+    <img class="rang" src="img/range-rover.jpg" alt="">
+    <button>Comprar Agora</button>
+    <i class='bx bx-credit-card'></i>
+  <i class='bx bx-money'></i>
+  </p>
+
+  </p>
+</header>
+
+<footer>
+    <p>FreireVeículos - Todos os direitos reservados.</p>
+    <h3 class="app">Faça Mais com o
+        APP FreireVeículos
+    </h3>
+    <h2>
+        -Agendamento online: agende revisoes e manutençoes nas concessionárias;
+    </h2>
+    <h2>
+        -Manual cognitivo: assistente virtual para esclarecer dúvidas sobre o veículo;
+        </h2>
+        <h2>
+        -Calculadora de combustível e C02: veja emissoes de C02, custo por quilômetro e escolha o combustível mais vantajoso;
+        </h2>
+        <h2>
+        -Garantia de 1 ano com seu véiculo cadastrado no nosso App, com a data e a placa, modelo conferido, para defeitos e problemas.
+    </h2>
+    <i class='bx bxl-apple'></i>
+    <button>Baixe pela Apple Store</button>
+    <i class='bx bxl-play-store'></i>
+    <button>Baixe pelo Google Play</button>
+</footer>
+
+<footer class="rodape1">
+    <p>Mercedes-Benz vendedos essa marca famosa e de luxo</p>
+    <h3>Somos revendedores da Mercedes-Benz, recebemos carros semi-novos e novos,
+        nos empenhamos para superar os limites da pesquisa e do desenvolvimento,
+        e por isso vendemos com atençao para os nossos clientes.
+    </h3>
+    <button class="mercedes123">Veículos</button>
+    <img class= "carro1" src="img/mercedes1.jpg"  alt="">
+    <img class="carro2" src="img/mercedes2.jpg" alt="">
+</footer>
+
+<footer class="rodape2">
+    <p>Aceitamos várias opçoes de pagamentos em nossa loja</p>
+    <h3>Cartoes de crédito em até 12x vezes, débito, dinheiro, pix, bitcoin ou boleto.
+    </h3>
+    <button class="pagamento">Pagamentos</button>
+    <img class="dinheiro" src="img/dinheiro.jpg">
+    <img class="crédito" src="img/credito.jpg">
+    <img class="débito" src="img/cartao.jpg">
+    <img class="bitcoin" src="img/bitcoin.jpg">
+    <img class="boleto">
+    <img class="pix">
+
+    <p>Feito o pagamento por meio de pix, débito ou crédito por favor,
+        mandar o comprovante pelo whatsapp 84992160269!
+    </p>
+
+    <title>Pagamento via PIX</title>
+</head>
+<body>
+    <h2>Pagamento via PIX</h2>
+    <p>Escaneie o QR Code para concluir o pagamento.</p>
+
+    <!-- O QR Code gerado será exibido aqui -->
+    <img id="pix-qrcode" alt="QR Code PIX" />
+
+    <script>
+        // Aqui você deve receber a URL do QR Code gerado no backend
+        const qrCodeDataUrl = '00020126580014BR.GOV.BCB.PIX0136dd669903-6391-44bd-94a8-c8af40378bd35204000053039865406100.005802BR5925Gabriel Freire Bacelar Hu6009SAO PAULO61080540900062250521FRVVcm3w5KKuaLZ106qyp6304A041'; // Substitua com o QR Code gerado
+
+        // Exibindo o QR Code na página
+        document.getElementById('pix-qrcode').src = qrCodeDataUrl;
+    </script>
+</body>
+</html>
+</footer>
+
+</body>
+</html>
