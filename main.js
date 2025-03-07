@@ -25,3 +25,5 @@ QRCode.toDataURL(payload, (err, qrCodeDataUrl) => {
 });
 
 
+
+  
