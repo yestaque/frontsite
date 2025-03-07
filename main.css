@@ -522,3 +522,7 @@ img.porsch:hover{
    cursor: pointer;
 }
 
+img.pix1 {
+  width: 300px;
+  height: 300px;
+}
