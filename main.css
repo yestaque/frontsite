@@ -569,6 +569,12 @@ img.pix1 {
   height: 300px;
 }
 
+img.duran{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
 img.thiago {
   width: 350px;
   height: 350px;
@@ -580,10 +586,6 @@ img.gabriel {
   height: 400px;
   border-radius: 50%;
 }
-
-border: var(--border);
-text-align: center;
-padding: 3rem 2rem;
 
 footer .avaliacao{
 font-size: 1.5rem;
