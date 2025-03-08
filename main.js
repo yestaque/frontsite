@@ -93,3 +93,43 @@ function exibirResultados(veiculos) {
         listaVeiculos.innerHTML = '<p>Nenhum veículo encontrado para os filtros aplicados.</p>';
     }
 }
+
+let preco = 50000
+
+if (preco > 50000) {
+    console.log('O preço é maior que 50000')
+} else{
+    console.log('O número NÃO é maior que 50000')
+}
+
+
+let select = document.getElementById("marca")
+let botao = document.getElementById("botao-veiculos")
+let preço = document.getElementById("preço")
+
+let arrayDeCarros = ['Audi','BMW','Chevrolet']
+
+
+function cliqueiNoBotao(){
+   arrayDeTarefas.push(select.value)
+}
+
+function mostrarNaTela(){
+    let novaLista = ""
+
+    arrayDeTarefas.forEach( tarefa => {
+        
+        novaLista = novaLista +
+        <li>
+            <p>${tarefa}</p>
+        </li>
+    })
+}
+
+console.log(arrayDeTarefas)
+
+
+botao.addEventListener("click", cliqueiNoBotao)
+
+console.log(select)
+console.log(botao)
